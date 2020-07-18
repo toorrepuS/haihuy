@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm Huy, Hai Huy, Hoang Hai Huy.
+Data is very beautiful & I like the beauty.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+
 
 ### Contact me
 
-[huyhh.uit@gmail.com](mailto:huyhh.uit@gmail.com)
+(https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/gmail-32.png) [huyhh.uit@gmail.com](mailto:huyhh.uit@gmail.com)
+(https://cdn0.iconfinder.com/data/icons/social-network-9/50/3-32.png) [https://www.fb.com/hoanghaihuy]
