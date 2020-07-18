@@ -13,5 +13,5 @@ Data is very beautiful & I like the beauty.
 
 ### Contact me
 
-!({{ site.baseurl }}/images/gmail.png) [huyhh.uit@gmail.com](mailto:huyhh.uit@gmail.com)
-!({{ site.baseurl }}/images/facebook.png) [https://www.fb.com/hoanghaihuy]
+![GitHub Logo](/images/gmail.png) [huyhh.uit@gmail.com](mailto:huyhh.uit@gmail.com)
+![GitHub Logo](/images/facebook.png) [https://www.fb.com/hoanghaihuy]
