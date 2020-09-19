@@ -16,12 +16,17 @@ Postgres.app has a beautiful user interface and a convenient menu bar item. You 
 
 ### Config postgres server to client connect
 > sudo su postgres
+
 > vim /etc/postgresql/10/main/pg_hba.conf
+
 host    all             all             0.0.0.0/0               trust
+
 > vim /etc/postgresql/10/main/postgresql.conf
+
 listen_addresses = '*'
 
 > sudo service postgresql stop
+
 > sudo service postgresql start
 
 ## Create multiple Postgres instances on same machine
