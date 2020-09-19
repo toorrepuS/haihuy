@@ -8,6 +8,22 @@ Postgres.app has a beautiful user interface and a convenient menu bar item. You 
 
 [Link download Postgres.app](https://postgresapp.com/downloads.html)
 
+## Setting on Ubuntu 18.04
+> sudo apt-get install postgresql postgresql-contrib
+
+- Login to postgresql cli:
+> sudo -u postgres psql
+
+### Config postgres server to client connect
+> sudo su postgres
+> vim /etc/postgresql/10/main/pg_hba.conf
+host    all             all             0.0.0.0/0               trust
+> vim /etc/postgresql/10/main/postgresql.conf
+listen_addresses = '*'
+
+> sudo service postgresql stop
+> sudo service postgresql start
+
 ## Create multiple Postgres instances on same machine
 ### Create the clusters
 > /usr/lib/postgresql/10/bin/initdb -D /var/lib/postgresql/10/main/datadb1
