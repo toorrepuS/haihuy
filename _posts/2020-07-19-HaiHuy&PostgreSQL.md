@@ -49,8 +49,17 @@ engine = create_engine('postgresql://localhost/[DATABASE])
 ```
 
 ## Useful Command
+* Enlisting all the available commands
+	> \?
+
+* Knowing the syntaxes of PostgreSQL statements
+	> \h DROP TABLE
+
 * Open database
 	> psql testdb_1
+
+* List of all available databases
+	> \l
 
 * List user tables
 	> \dt+
@@ -61,3 +70,20 @@ engine = create_engine('postgresql://localhost/[DATABASE])
 * List Access privileges
 	> \z
 	
+* Switching to other database
+	> \c <database_name>
+
+* Describing a particular table
+	> \d <table_name>
+	
+* Knowing the version of PostgreSQL
+	> select version();
+
+* Seeing the previously executed command
+	> \g
+
+* Knowing the execution times of queries
+	> \timing
+
+* psql + text editor
+	> \e
