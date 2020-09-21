@@ -40,6 +40,12 @@ listen_addresses = '*'
 
 Ref: [Create multiple Postgres instances on same machine](https://stackoverflow.com/questions/37861262/create-multiple-postgres-instances-on-same-machine)
 
+## List Postgres packages installed
+> dpkg -l | grep postgres
+
+## Remove/Uninstall Postgres Ubuntu
+> sudo apt-get --purge remove $(dpkg -l | grep postgres | awk '{print($2)}')
+
 ## How to connect from python
 > pip install psycopg2
 
